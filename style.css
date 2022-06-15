@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Letters*/
+a {
+color: #000000;
+text-decoration: none;  
+}
+
+/*Header*/
+
+header{
+  color: #000000;
+  background-color: #cecaf7;  /* Blue */
+  padding: 0px 0;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-container {
+  height: 100px;
+ /* border: 1px solid #000000; */
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.ucan {
+ /* padding-top: 20px; */
+  display: flex;
+  justify-content: flex-start;    
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 45px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;    
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;    
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+p{
+  margin-top: 30px;
+  text-align: justify;
+  font-family: "Crinsom Text";
+  font-size: 25px;
+}
+
+main { 
+ 
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+flex-direction: coloumn;
+}
+
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+.imagem { 
+  margin-top: 60px;
+ height: 400px;
+ width: 1200px;
+margin-right: 50px;
+margin-left: 50px; 
+}
+
+.crie {
+ margin-right: 50px; 
+}
+
+.sobre{
+ margin-top: 50px;
+ margin-right: 50px;
+ margin-left: 50px; 
+}
+
+
+
+
+/*Vitória*/
+
+
+.wow {
+  width: 100px;
+}
+
+label{
+  font-weight: 100px;
+  color: black;
+  display: inline;
+  text-decoration: none;
+  margin-bottom: 3px;
+  font-family: 'Montsserat', 'Helvetica', 'sans-serif'; 
+  font-size: 12px;
+}
+
+
+
+h1{
+margin-top: 50px;
+font-size: 60px;
+color: #1F96DB;
+text-align: center;
+font-family: Trebuchet MS;
+}
+
+a{
+  text-decoration: none;
+}
+
+.form{
+  display: flex;
+  flex-direction: coloumn;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+}
+
+ .concluir{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #1F96DB;
+  width: 70px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #87c5e8;
+  text-decoration: none;
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
